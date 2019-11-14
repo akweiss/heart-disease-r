@@ -128,8 +128,7 @@ than unlikely. Again, we can extend this to explore the relationship between che
   <img width="500" src="https://github.com/akweiss/heart-disease-r/blob/master/images/hdeda12.png">
 </p>
 
-Though arranged differently, we see that the distributions of different chest pain types are approximately the same between sexes. I'm also interested in additionally 
-testing the relationship between chest pain and major vessels colored by fluoroscopy. 
+Though arranged differently, we see that the distributions of different chest pain types are approximately the same between sexes; most notably, there is a large spike for males with typical anginal chest pain which is much more pronounced than the bar for females with typical anginal chest pain. I'm also interested in additionally testing the relationship between chest pain and major vessels colored by fluoroscopy. 
 
 ``` sh
 > by_cp_ca <- count(heart, ca, cp)
